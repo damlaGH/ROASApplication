@@ -22,8 +22,10 @@ namespace ROASApplication.Business
         public static IReadOnlyCollection<ROAS> GetROASList() 
         {
             string json = FileOperations.Read();
-
-            list = JsonSerializer.Deserialize<List<ROAS>>(json, new JsonSerializerOptions { IncludeFields = true });
+            if (!string.IsNullOrEmpty(json))
+            {
+                list = JsonSerializer.Deserialize<List<ROAS>>(json, new JsonSerializerOptions { IncludeFields = true });
+            }
             return list.AsReadOnly();
         }
 

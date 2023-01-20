@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROASApplication.ConsoleUI",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROASApplication.Business", "ROASApplication.Business\ROASApplication.Business.csproj", "{0D938771-47AE-450C-B9B9-6594D99F49C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROAS.Data", "ROAS.Data\ROAS.Data.csproj", "{BC53644C-7FE3-47E1-B724-B4238E6DC70E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ROASApplication.Data", "ROAS.Data\ROASApplication.Data.csproj", "{BC53644C-7FE3-47E1-B724-B4238E6DC70E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

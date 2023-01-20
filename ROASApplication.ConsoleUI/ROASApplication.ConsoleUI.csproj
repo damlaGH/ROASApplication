@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ROAS.Data\ROAS.Data.csproj" />
+    <ProjectReference Include="..\ROAS.Data\ROASApplication.Data.csproj" />
     <ProjectReference Include="..\ROASApplication.Business\ROASApplication.Business.csproj" />
   </ItemGroup>
 

@@ -49,8 +49,8 @@ namespace ROASApplication
             string filterKey = Console.ReadLine();
             var data = ROASService.SearchFromChannelName(filterKey);
 
-            WriteFromList(data);
-
+            WriteFromList(data);  //buraya WriteToScreen(data) demiştik ama bu ifadeyi ListOfROAS ın içinde de
+                                  //kullancağımız ve kod tekrarı olacağından WriteFromList i tanımladık
             Again();
         }
 
